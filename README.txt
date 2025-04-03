@@ -1,9 +1,8 @@
-# example config/used for testing
 # prerequisites:
 #  - sns topic for publishing output/content from code
 #  - iam role with permission to make api calls to get data & publish to sns topic
 
-Lambda config = {
+Lambda config = {  # example config/used for testing
   General configuration:{
     Description: -
     Memory: 128MB
